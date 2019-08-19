@@ -21,5 +21,5 @@ pyStr, err := py.Convert()
 ### 使用默认的转换参数（拼音不含声调）
 ```go
 // 转换， pyStr为中文转换后的拼音
-pyStr, err := py.Convert("这里放入需要转换的中文")
+pyStr, err := pinyin.Convert("这里放入需要转换的中文")
 ```
